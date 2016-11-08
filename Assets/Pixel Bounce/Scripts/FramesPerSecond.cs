@@ -2,7 +2,7 @@ using UnityEngine;
 using System;
 
 
-public class FramesPerSecond : MonoBehaviour　{
+public class FramesPerSecond : MonoBehaviour {
 	public bool _enabled;
 	public TextMesh _textMesh;
 	public float updateInterval = 0.5f;

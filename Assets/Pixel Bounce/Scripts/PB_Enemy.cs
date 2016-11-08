@@ -33,10 +33,11 @@ public class PB_Enemy:MonoBehaviour{
 	}
 
 	public void DestroyEnemy(){
-		if(_alive)
-		PB_GameController.instance.AddPoint(_alivePoint); 	// Remove point to game for destroying an alive enemy
-		PB_GameController.instance._enemiesOnScreen--;		// Decrease number of enemies on screen counter
-		Destroy(gameObject);								// Remove enemy from game completely
+		if(_alive) {
+		//	PB_GameController.instance.AddPoint(_alivePoint); 	// Remove point to game for destroying an alive enemy
+			PB_GameController.instance._enemiesOnScreen--;		// Decrease number of enemies on screen counter
+			Destroy(gameObject);								// Remove enemy from game completely
+		}
 	}
 
 	public void FixedUpdate() {

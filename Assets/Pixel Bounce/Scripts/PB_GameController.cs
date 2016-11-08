@@ -4,7 +4,7 @@ using UnityEngine;
 using System;
 
 
-public class PB_GameController:MonoBehaviour{
+public class PB_GameController : MonoBehaviour{
 	public int _score;									// How many enemies have been squashed
 	public GameObject _scoreText;						// UI reference to the score text
 	public GameObject _scoreTextShadow;				// UI reference to the score text shadow
