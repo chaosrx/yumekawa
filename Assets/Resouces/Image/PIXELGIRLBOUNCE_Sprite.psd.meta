@@ -1,0 +1,1140 @@
+fileFormatVersion: 2
+guid: bb7ec92b40b78419b8cff1f4ae7c08b0
+timeCreated: 1478795065
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Back
+    21300002: ScoreBox
+    21300004: TotalScoreBox
+    21300006: HighScoreBox
+    21300008: PIXELGIRLBOUNCE_Sprite_11
+    21300010: PIXELGIRLBOUNCE_Sprite_12
+    21300012: PIXELGIRLBOUNCE_Sprite_13
+    21300014: PIXELGIRLBOUNCE_Sprite_22
+    21300016: Logo
+    21300018: PIXELGIRLBOUNCE_Sprite_40
+    21300020: PIXELGIRLBOUNCE_Sprite_41
+    21300022: PIXELGIRLBOUNCE_Sprite_42
+    21300024: Tw
+    21300026: Fb
+    21300028: Pink_Idle1
+    21300030: Pink_Idle2
+    21300032: Pink_Idle3
+    21300034: Pink_Idle4
+    21300036: Pink_Fall
+    21300038: Controller
+    21300040: Pink_Atk1
+    21300042: Pink_Atk2
+    21300044: Pink_Atk3
+    21300046: Pink_Atk4
+    21300048: Pink_Dead1
+    21300050: Pink_Dead2
+    21300052: Pink_Dead3
+    21300054: Enemy-Hane1
+    21300056: Enemy-Hane2
+    21300058: Enemy-Hane3
+    21300060: Enemy-Normal1
+    21300062: Enemy-Normal2
+    21300064: Enemy-Normal3
+    21300066: ButtonPushedR
+    21300068: Enemy-Toge1
+    21300070: Enemy-Toge2
+    21300072: Enemy-Toge3
+    21300074: Enemy-cap
+    21300076: Enemy-Dmg1
+    21300078: Enemy-Dmg2
+    21300080: Enemy-Dmg3
+    21300082: Enemy-Dmg0
+    21300084: Enemy-Cap1
+    21300086: Enemy-Cap2
+    21300088: Enemy-Cap3
+    21300090: PIXELGIRLBOUNCE_Sprite_79
+    21300092: ThankYou
+    21300094: PIXELGIRLBOUNCE_Sprite_28
+    21300096: PIXELGIRLBOUNCE_Sprite_4
+    21300098: PIXELGIRLBOUNCE_Sprite_5
+    21300100: PIXELGIRLBOUNCE_Sprite_6
+    21300102: PIXELGIRLBOUNCE_Sprite_7
+    21300104: PIXELGIRLBOUNCE_Sprite_8
+    21300106: PIXELGIRLBOUNCE_Sprite_9
+    21300108: PIXELGIRLBOUNCE_Sprite_10
+    21300110: PIXELGIRLBOUNCE_Sprite_14
+    21300112: PIXELGIRLBOUNCE_Sprite_15
+    21300114: PIXELGIRLBOUNCE_Sprite_16
+    21300116: Back
+    21300118: PIXELGIRLBOUNCE_Sprite_1
+    21300120: PIXELGIRLBOUNCE_Sprite_2
+    21300122: PIXELGIRLBOUNCE_Sprite_3
+    21300124: PIXELGIRLBOUNCE_Sprite_17
+    21300126: PIXELGIRLBOUNCE_Sprite_18
+    21300128: PIXELGIRLBOUNCE_Sprite_19
+    21300130: PIXELGIRLBOUNCE_Sprite_20
+    21300132: PIXELGIRLBOUNCE_Sprite_21
+    21300134: PIXELGIRLBOUNCE_Sprite_23
+    21300136: PIXELGIRLBOUNCE_Sprite_24
+    21300138: PIXELGIRLBOUNCE_Sprite_25
+    21300140: PIXELGIRLBOUNCE_Sprite_26
+    21300142: PIXELGIRLBOUNCE_Sprite_27
+    21300144: PIXELGIRLBOUNCE_Sprite_29
+    21300146: PIXELGIRLBOUNCE_Sprite_30
+    21300148: PIXELGIRLBOUNCE_Sprite_31
+    21300150: PIXELGIRLBOUNCE_Sprite_32
+    21300152: PIXELGIRLBOUNCE_Sprite_33
+    21300154: PIXELGIRLBOUNCE_Sprite_34
+    21300156: PIXELGIRLBOUNCE_Sprite_35
+    21300158: PIXELGIRLBOUNCE_Sprite_36
+    21300160: PIXELGIRLBOUNCE_Sprite_37
+    21300162: PIXELGIRLBOUNCE_Sprite_38
+    21300164: Logo
+    21300166: Thank
+    21300168: You
+    21300170: PIXELGIRLBOUNCE_Sprite_47
+    21300172: Pink-normal1
+    21300174: Pink-normal2
+    21300176: Pink-normal3
+    21300178: Pink-normal4
+    21300180: Pink-dive
+    21300182: ButtonR
+    21300184: Pink-slash1
+    21300186: Pink-slash2
+    21300188: Pink-slash3
+    21300190: Pink-slash4
+    21300192: Pink-stun1
+    21300194: Pink-stun2
+    21300196: Pink-stun3
+    21300198: Enemy-Hane1
+    21300200: Enemy-Hane2
+    21300202: Enemy-Hane3
+    21300204: Enemy-defo1
+    21300206: Enemy-defo2
+    21300208: Enemy-defo3
+    21300210: Enemy-toge1
+    21300212: Enemy-toge2
+    21300214: Enemy-toge3
+    21300216: Enemy-dmg2
+    21300218: Enemy-dmg3
+    21300220: Enemy-dmg4
+    21300222: Enemy-dmg1
+    21300224: Enemy-cap1
+    21300226: Enemy-cap2
+    21300228: Enemy-cap3
+    21300230: PIXELGIRLBOUNCE_Sprite_80
+    21300232: ButtonL
+    21300234: ButtonPushedL
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Back
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 276
+        width: 217
+        height: 288
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 288}
+        - {x: 0, y: 4}
+        - {x: 1, y: 3}
+        - {x: 214, y: 3}
+        - {x: 214, y: 0}
+        - {x: 217, y: 0}
+        - {x: 217, y: 288}
+    - name: PIXELGIRLBOUNCE_Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 547
+        width: 57
+        height: 17
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 547
+        width: 66
+        height: 17
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 547
+        width: 57
+        height: 17
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 549
+        width: 7
+        height: 14
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 543
+        width: 24
+        height: 18
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 555
+        width: 4
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 546
+        width: 12
+        height: 13
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 543
+        width: 19
+        height: 13
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 549
+        width: 18
+        height: 11
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 549
+        width: 9
+        height: 4
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 423
+        width: 173
+        height: 112
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49, y: 112}
+        - {x: 0, y: 71}
+        - {x: 0, y: 0}
+        - {x: 164, y: 0}
+        - {x: 173, y: 16}
+        - {x: 173, y: 92}
+        - {x: 151, y: 112}
+    - name: PIXELGIRLBOUNCE_Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 513
+        width: 22
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 513
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 513
+        width: 22
+        height: 18
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_15
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 529
+        width: 6
+        height: 6
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_16
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 529
+        width: 14
+        height: 6
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_17
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 516
+        width: 7
+        height: 15
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_18
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 522
+        width: 6
+        height: 6
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_19
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 515
+        width: 10
+        height: 10
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_20
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 517
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_21
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 514
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_22
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 454
+        width: 52
+        height: 55
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42, y: 19}
+        - {x: 49, y: 44}
+        - {x: 47, y: 53}
+        - {x: 41, y: 55}
+        - {x: 22, y: 55}
+        - {x: 1, y: 25}
+        - {x: 0, y: 20}
+        - {x: 0, y: 0}
+        - {x: 44, y: 0}
+        - {x: 43, y: 3}
+        - {x: 52, y: 14}
+        - {x: 52, y: 19}
+    - name: PIXELGIRLBOUNCE_Sprite_23
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 454
+        width: 31
+        height: 31
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_24
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 473
+        width: 8
+        height: 16
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_25
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 469
+        width: 11
+        height: 7
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_26
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 454
+        width: 21
+        height: 15
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_27
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 463
+        width: 4
+        height: 6
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_28
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 424
+        width: 8
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_29
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 424
+        width: 5
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_30
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 424
+        width: 5
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_31
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 424
+        width: 5
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_32
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 424
+        width: 6
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_33
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 424
+        width: 5
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_34
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 424
+        width: 5
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_35
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 424
+        width: 6
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_36
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 424
+        width: 5
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_37
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 424
+        width: 5
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_38
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 424
+        width: 9
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Logo
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 353
+        width: 162
+        height: 60
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 60}
+        - {x: 0, y: 0}
+        - {x: 133, y: 0}
+        - {x: 162, y: 1}
+        - {x: 162, y: 54}
+        - {x: 161, y: 60}
+    - name: PIXELGIRLBOUNCE_Sprite_40
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 344
+        width: 52
+        height: 9
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_41
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 319
+        width: 28
+        height: 14
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_42
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 319
+        width: 45
+        height: 14
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Tw
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 296
+        width: 13
+        height: 13
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Fb
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 296
+        width: 13
+        height: 13
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Thank
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 291
+        width: 55
+        height: 16
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: You
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 291
+        width: 34
+        height: 16
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_47
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 254
+        width: 5
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Pink-normal1
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 254
+        width: 23
+        height: 24
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Pink-normal2
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 255
+        width: 26
+        height: 22
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Pink-normal3
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 253
+        width: 29
+        height: 24
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Pink-normal4
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 254
+        width: 23
+        height: 23
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Pink-dive
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 249
+        width: 12
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: ButtonR
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 137
+        width: 111
+        height: 111
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 111}
+        - {x: 0, y: 0}
+        - {x: 111, y: 0}
+        - {x: 111, y: 111}
+    - name: Pink-slash1
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 210
+        width: 24
+        height: 31
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Pink-slash2
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 210
+        width: 26
+        height: 37
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Pink-slash3
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 204
+        width: 26
+        height: 36
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Pink-slash4
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 203
+        width: 25
+        height: 28
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Pink-stun1
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 175
+        width: 32
+        height: 18
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Pink-stun2
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 175
+        width: 32
+        height: 18
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Pink-stun3
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 172
+        width: 32
+        height: 16
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Enemy-Hane1
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 137
+        width: 18
+        height: 19
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Enemy-Hane2
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 138
+        width: 18
+        height: 18
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Enemy-Hane3
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 139
+        width: 18
+        height: 17
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Enemy-defo1
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 139
+        width: 19
+        height: 16
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Enemy-defo2
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 140
+        width: 19
+        height: 15
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Enemy-defo3
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 140
+        width: 19
+        height: 16
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: ButtonPushedR
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 18
+        width: 113
+        height: 112
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 0}
+        - {x: 113, y: 0}
+        - {x: 113, y: 112}
+        - {x: 0, y: 112}
+    - name: Enemy-toge1
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 102
+        width: 19
+        height: 24
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Enemy-toge2
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 103
+        width: 19
+        height: 23
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Enemy-toge3
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 102
+        width: 19
+        height: 24
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Enemy-cap
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 108
+        width: 13
+        height: 10
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Enemy-dmg2
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 106
+        width: 20
+        height: 10
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Enemy-dmg3
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 106
+        width: 22
+        height: 9
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Enemy-dmg4
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 106
+        width: 22
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Enemy-dmg1
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 73
+        width: 19
+        height: 15
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Enemy-cap1
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 73
+        width: 19
+        height: 18
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Enemy-cap2
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 74
+        width: 19
+        height: 17
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Enemy-cap3
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 73
+        width: 19
+        height: 18
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_79
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 75
+        width: 26
+        height: 12
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_80
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 137
+        width: 111
+        height: 111
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 111}
+        - {x: 0, y: 0}
+        - {x: 111, y: 0}
+        - {x: 111, y: 111}
+    - name: ButtonL
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 137
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56, y: 56}
+        - {x: -56, y: -56}
+        - {x: 56, y: -56}
+        - {x: 56, y: 56}
+    - name: ButtonPushedL
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 16
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56, y: 56}
+        - {x: -56, y: -56}
+        - {x: 56, y: -56}
+        - {x: 56, y: 56}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

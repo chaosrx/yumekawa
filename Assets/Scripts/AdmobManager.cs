@@ -15,7 +15,7 @@ public class AdmobManager : MonoBehaviour {
 		#if UNITY_ANDROID
 			string adUnitId = "ca-app-pub-6479246200198022/1367709194";
 			bannerView = new BannerView(adUnitId, AdSize.SMART_BANNER, AdPosition.Top);
-    #elif UNITY_IPHONE
+    #elif UNITY_IOS
       string adUnitId = "ca-app-pub-6479246200198022/1367709194";
 			bannerView = new BannerView(adUnitId, AdSize.Banner, AdPosition.Top);
 

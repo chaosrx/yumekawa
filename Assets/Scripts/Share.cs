@@ -17,6 +17,8 @@ namespace SWorker {
 
 		public Text Result;
 		public RawImage Image;
+    public GameObject PleaseReview;
+    public GameObject BuyBeer;
 
         /// <summary>
         /// 開始処理
@@ -30,6 +32,9 @@ namespace SWorker {
 				byte[] data = (ExtensionImage == ".png") ? texture.EncodeToPNG () : texture.EncodeToJPG ();
 				File.WriteAllBytes(imagePath, data);
             }
+            PleaseReview.SetActive(false);
+            BuyBeer.SetActive(false);
+
         }
 
         /// <summary>
@@ -52,6 +57,25 @@ namespace SWorker {
 					SocialWorker.CreateChooser(message, imagePath, OnResult);
 					//			SocialWorker.CreateChooser(message, "", OnResult);
 					//			SocialWorker.CreateChooser("", imagePath, OnResult);
+        }
+
+
+				public void ReviewPlease() {
+					#if UNITY_IOS
+						Application.OpenURL("itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?id=APP_ID&onlyLatestVersion=true&pageNumber=0&sortOrdering=1&type=Purple+Software");
+					#endif
+
+					#if UNITY_ANDROID
+						Application.OpenURL("https://play.google.com/store/apps/details?id=com.zavukodlak.pixbit");
+					#endif
+				}
+
+        public void ActivateReview() {
+          PleaseReview.SetActive(true);
+        }
+
+        public void ActivateBuyBeer() {
+          BuyBeer.SetActive(true);
         }
 
         /// <summary>

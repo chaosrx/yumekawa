@@ -49,7 +49,7 @@ public class PB_Enemy:MonoBehaviour{
 	public void LateUpdate() {
 		if(PB_GameController.instance._mode != "Game"){
 			_speed = 4.0f;
-			transform.localScale = new Vector2(-1.0f, 1.0f);							// Flip graphics if not in game mode
+			transform.localScale = new Vector2(-4.5f, 4.5f); // Flip graphics if not in game mode
 		}else if(!_stunned){
 			_speed = -PB_GameController.instance._gameSpeed*2;		// Move backwards if not in game mode
 		}else{

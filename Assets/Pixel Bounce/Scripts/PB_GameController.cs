@@ -14,6 +14,10 @@ public class PB_GameController : MonoBehaviour{
 	public GameObject _highScoreText;
 	public GameObject _highScoreTextShadow;
 	public GameObject _highScoreContainer;
+	public GameObject _shareBox;
+	public GameObject _pleaseReview;
+
+	private int _updateHighScoreCnt;
 
 	public int _totalScore;
 	public GameObject _totalScoreContainer;
@@ -48,10 +52,13 @@ public class PB_GameController : MonoBehaviour{
 	public void OnApplicationQuit() {						// Ensure that the instance is destroyed when the game is stopped in the editor.
 		PlayerPrefs.SetInt("TotalScore", _totalScore);
 		PlayerPrefs.SetInt("HighScore", _highScore);
+		PlayerPrefs.SetInt("UpdateHiScore", _updateHighScoreCnt);
+
 	    instance = null;
 	}
 
 	public void Awake() {		// Singleton: Destroys itself in case another instance is already in the scene
+		PlayerPrefs.DeleteAll();
 		if (instance != null){
 	        Destroy (gameObject);
 	    }else{
@@ -71,6 +78,7 @@ public class PB_GameController : MonoBehaviour{
 		SetScore();												// Set UI text
 		_player = PB_Player.instance;							// Reference to player singleton
 		CheckUnlocks();											// Check what characters are unlocked based on score
+
 	}
 
 	public void Button1() {										// Button 1 is called by the PB_Controller
@@ -120,15 +128,20 @@ public class PB_GameController : MonoBehaviour{
 			_totalScoreContainer.SetActive(true);					// Show total score
 			_scoreContainer.SetActive(true);
 			_highScoreContainer.SetActive(true);
+			_shareBox.SetActive(true);
 			_title.GetComponent<Animator>().Play("In");				// Show title
 			_startText.SetActive(true);
+			_pleaseReview.SetActive(false);
 			PB_Player.instance.Alive();
 			CheckUnlocks();											// Check what characters are unlocked based on score
 		//Game Play Mode
 		}else if(m == "Game" && _mode!= "Game"){					// Game mode
 			_title.GetComponent<Animator>().Play("Out");				// Hide title
 			_startText.SetActive(false);
-			_totalScoreContainer.SetActive(false);					// Hide total score
+			_totalScoreContainer.SetActive(false);
+			_shareBox.SetActive(false);
+			_titleContainer.SetActive(false);
+				// Hide total score
 			PB_Player.instance.GetComponent<BoxCollider2D>().enabled = true;		// Enable player collider
 			PB_Player.instance.GetComponent<Rigidbody2D>().isKinematic = false;
 			_score = 0;												// Reset score for new game
@@ -147,6 +160,9 @@ public class PB_GameController : MonoBehaviour{
 			_newRecord.SetActive(true);
 			_scoreContainer.SetActive(false);
 			_highScoreContainer.SetActive(false);
+			_titleContainer.SetActive(false);
+
+			//_pleaseReview.SetActive(true);
 		}
 	}
 
@@ -169,6 +185,7 @@ public class PB_GameController : MonoBehaviour{
 		SetScoreText();					// Update UI score text
 		if(_score > _highScore){
 			_newRecordAchieved = true;	// New record achieved (Used to decide what end game screen to use)
+
 			_highScore = _score;		// Change High score
 			SetHighScoreText();			// Update UI high score text
 			PlayerPrefs.SetInt("HighScore", _highScore);
