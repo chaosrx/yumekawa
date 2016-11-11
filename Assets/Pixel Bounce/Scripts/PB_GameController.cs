@@ -53,6 +53,7 @@ public class PB_GameController : MonoBehaviour{
 		PlayerPrefs.SetInt("TotalScore", _totalScore);
 		PlayerPrefs.SetInt("HighScore", _highScore);
 		PlayerPrefs.SetInt("UpdateHiScore", _updateHighScoreCnt);
+		PlayerPrefs.Save();
 
 	    instance = null;
 	}

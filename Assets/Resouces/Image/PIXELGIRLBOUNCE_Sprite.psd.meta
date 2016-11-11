@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: bb7ec92b40b78419b8cff1f4ae7c08b0
-timeCreated: 1478795065
+timeCreated: 1478846659
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -122,6 +122,43 @@ TextureImporter:
     21300230: PIXELGIRLBOUNCE_Sprite_80
     21300232: ButtonL
     21300234: ButtonPushedL
+    21300236: Back
+    21300238: Logo
+    21300240: Tw
+    21300242: Fb
+    21300244: Thank
+    21300246: You
+    21300248: Pink_nomal1
+    21300250: Pink_nomal2
+    21300252: Pink_nomal3
+    21300254: Pink_nomal4
+    21300256: Pink_dive
+    21300258: PIXELGIRLBOUNCE_Sprite_53
+    21300260: Pink_slash1
+    21300262: Pink_slash2
+    21300264: Pink_slash3
+    21300266: Pink_slash4
+    21300268: Pink_stun1
+    21300270: Pink_stun2
+    21300272: Pink_stun3
+    21300274: Enemy_hane1
+    21300276: Enemy_hane2
+    21300278: Enemy_hane3
+    21300280: Enemy_defo1
+    21300282: Enemy_defo2
+    21300284: Enemy_defo3
+    21300286: PIXELGIRLBOUNCE_Sprite_67
+    21300288: Enemy_toge1
+    21300290: Enemy_toge2
+    21300292: Enemy_toge3
+    21300294: Enemy_cap
+    21300296: Enemy_dmg2
+    21300298: Enemy_dmg3
+    21300300: Enemy_dmg4
+    21300302: Enemy_dmg1
+    21300304: Enemy_cap1
+    21300306: Enemy_cap2
+    21300308: Enemy_cap3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -175,17 +212,17 @@ TextureImporter:
         y: 276
         width: 217
         height: 288
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 288}
-        - {x: 0, y: 4}
-        - {x: 1, y: 3}
-        - {x: 214, y: 3}
-        - {x: 214, y: 0}
-        - {x: 217, y: 0}
-        - {x: 217, y: 288}
+      - - {x: -108.5, y: 144}
+        - {x: -108.5, y: -140}
+        - {x: -107.5, y: -141}
+        - {x: 105.5, y: -141}
+        - {x: 105.5, y: -144}
+        - {x: 108.5, y: -144}
+        - {x: 108.5, y: 144}
     - name: PIXELGIRLBOUNCE_Sprite_1
       rect:
         serializedVersion: 2
@@ -193,8 +230,8 @@ TextureImporter:
         y: 547
         width: 57
         height: 17
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PIXELGIRLBOUNCE_Sprite_2
@@ -204,8 +241,8 @@ TextureImporter:
         y: 547
         width: 66
         height: 17
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PIXELGIRLBOUNCE_Sprite_3
@@ -215,8 +252,8 @@ TextureImporter:
         y: 547
         width: 57
         height: 17
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PIXELGIRLBOUNCE_Sprite_4
@@ -226,8 +263,8 @@ TextureImporter:
         y: 549
         width: 7
         height: 14
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PIXELGIRLBOUNCE_Sprite_5
@@ -237,8 +274,8 @@ TextureImporter:
         y: 543
         width: 24
         height: 18
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PIXELGIRLBOUNCE_Sprite_6
@@ -248,8 +285,8 @@ TextureImporter:
         y: 555
         width: 4
         height: 8
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PIXELGIRLBOUNCE_Sprite_7
@@ -259,8 +296,8 @@ TextureImporter:
         y: 546
         width: 12
         height: 13
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PIXELGIRLBOUNCE_Sprite_8
@@ -270,8 +307,8 @@ TextureImporter:
         y: 543
         width: 19
         height: 13
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PIXELGIRLBOUNCE_Sprite_9
@@ -281,8 +318,8 @@ TextureImporter:
         y: 549
         width: 18
         height: 11
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PIXELGIRLBOUNCE_Sprite_10
@@ -292,8 +329,8 @@ TextureImporter:
         y: 549
         width: 9
         height: 4
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PIXELGIRLBOUNCE_Sprite_11
@@ -303,17 +340,17 @@ TextureImporter:
         y: 423
         width: 173
         height: 112
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 49, y: 112}
-        - {x: 0, y: 71}
-        - {x: 0, y: 0}
-        - {x: 164, y: 0}
-        - {x: 173, y: 16}
-        - {x: 173, y: 92}
-        - {x: 151, y: 112}
+      - - {x: -37.5, y: 56}
+        - {x: -86.5, y: 15}
+        - {x: -86.5, y: -56}
+        - {x: 77.5, y: -56}
+        - {x: 86.5, y: -40}
+        - {x: 86.5, y: 36}
+        - {x: 64.5, y: 56}
     - name: PIXELGIRLBOUNCE_Sprite_12
       rect:
         serializedVersion: 2
@@ -321,8 +358,8 @@ TextureImporter:
         y: 513
         width: 22
         height: 21
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PIXELGIRLBOUNCE_Sprite_13
@@ -332,8 +369,8 @@ TextureImporter:
         y: 513
         width: 21
         height: 21
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PIXELGIRLBOUNCE_Sprite_14
@@ -343,8 +380,8 @@ TextureImporter:
         y: 513
         width: 22
         height: 18
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PIXELGIRLBOUNCE_Sprite_15
@@ -354,8 +391,8 @@ TextureImporter:
         y: 529
         width: 6
         height: 6
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PIXELGIRLBOUNCE_Sprite_16
@@ -365,8 +402,8 @@ TextureImporter:
         y: 529
         width: 14
         height: 6
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PIXELGIRLBOUNCE_Sprite_17
@@ -376,8 +413,8 @@ TextureImporter:
         y: 516
         width: 7
         height: 15
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PIXELGIRLBOUNCE_Sprite_18
@@ -387,8 +424,8 @@ TextureImporter:
         y: 522
         width: 6
         height: 6
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PIXELGIRLBOUNCE_Sprite_19
@@ -398,8 +435,8 @@ TextureImporter:
         y: 515
         width: 10
         height: 10
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PIXELGIRLBOUNCE_Sprite_20
@@ -409,8 +446,8 @@ TextureImporter:
         y: 517
         width: 7
         height: 7
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PIXELGIRLBOUNCE_Sprite_21
@@ -420,8 +457,8 @@ TextureImporter:
         y: 514
         width: 7
         height: 7
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PIXELGIRLBOUNCE_Sprite_22
@@ -431,22 +468,22 @@ TextureImporter:
         y: 454
         width: 52
         height: 55
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 42, y: 19}
-        - {x: 49, y: 44}
-        - {x: 47, y: 53}
-        - {x: 41, y: 55}
-        - {x: 22, y: 55}
-        - {x: 1, y: 25}
-        - {x: 0, y: 20}
-        - {x: 0, y: 0}
-        - {x: 44, y: 0}
-        - {x: 43, y: 3}
-        - {x: 52, y: 14}
-        - {x: 52, y: 19}
+      - - {x: 16, y: -8.5}
+        - {x: 23, y: 16.5}
+        - {x: 21, y: 25.5}
+        - {x: 15, y: 27.5}
+        - {x: -4, y: 27.5}
+        - {x: -25, y: -2.5}
+        - {x: -26, y: -7.5}
+        - {x: -26, y: -27.5}
+        - {x: 18, y: -27.5}
+        - {x: 17, y: -24.5}
+        - {x: 26, y: -13.5}
+        - {x: 26, y: -8.5}
     - name: PIXELGIRLBOUNCE_Sprite_23
       rect:
         serializedVersion: 2
@@ -454,8 +491,8 @@ TextureImporter:
         y: 454
         width: 31
         height: 31
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PIXELGIRLBOUNCE_Sprite_24
@@ -465,8 +502,8 @@ TextureImporter:
         y: 473
         width: 8
         height: 16
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PIXELGIRLBOUNCE_Sprite_25
@@ -476,8 +513,8 @@ TextureImporter:
         y: 469
         width: 11
         height: 7
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PIXELGIRLBOUNCE_Sprite_26
@@ -487,8 +524,8 @@ TextureImporter:
         y: 454
         width: 21
         height: 15
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PIXELGIRLBOUNCE_Sprite_27
@@ -498,8 +535,8 @@ TextureImporter:
         y: 463
         width: 4
         height: 6
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PIXELGIRLBOUNCE_Sprite_28
@@ -509,8 +546,8 @@ TextureImporter:
         y: 424
         width: 8
         height: 8
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PIXELGIRLBOUNCE_Sprite_29
@@ -520,8 +557,8 @@ TextureImporter:
         y: 424
         width: 5
         height: 8
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PIXELGIRLBOUNCE_Sprite_30
@@ -531,8 +568,8 @@ TextureImporter:
         y: 424
         width: 5
         height: 8
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PIXELGIRLBOUNCE_Sprite_31
@@ -542,8 +579,8 @@ TextureImporter:
         y: 424
         width: 5
         height: 8
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PIXELGIRLBOUNCE_Sprite_32
@@ -553,8 +590,8 @@ TextureImporter:
         y: 424
         width: 6
         height: 8
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PIXELGIRLBOUNCE_Sprite_33
@@ -564,8 +601,8 @@ TextureImporter:
         y: 424
         width: 5
         height: 8
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PIXELGIRLBOUNCE_Sprite_34
@@ -575,8 +612,8 @@ TextureImporter:
         y: 424
         width: 5
         height: 8
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PIXELGIRLBOUNCE_Sprite_35
@@ -586,8 +623,8 @@ TextureImporter:
         y: 424
         width: 6
         height: 8
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PIXELGIRLBOUNCE_Sprite_36
@@ -597,8 +634,8 @@ TextureImporter:
         y: 424
         width: 5
         height: 8
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PIXELGIRLBOUNCE_Sprite_37
@@ -608,8 +645,8 @@ TextureImporter:
         y: 424
         width: 5
         height: 8
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PIXELGIRLBOUNCE_Sprite_38
@@ -619,8 +656,8 @@ TextureImporter:
         y: 424
         width: 9
         height: 8
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Logo
@@ -630,16 +667,16 @@ TextureImporter:
         y: 353
         width: 162
         height: 60
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 60}
-        - {x: 0, y: 0}
-        - {x: 133, y: 0}
-        - {x: 162, y: 1}
-        - {x: 162, y: 54}
-        - {x: 161, y: 60}
+      - - {x: -81, y: 30}
+        - {x: -81, y: -30}
+        - {x: 52, y: -30}
+        - {x: 81, y: -29}
+        - {x: 81, y: 24}
+        - {x: 80, y: 30}
     - name: PIXELGIRLBOUNCE_Sprite_40
       rect:
         serializedVersion: 2
@@ -647,8 +684,8 @@ TextureImporter:
         y: 344
         width: 52
         height: 9
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PIXELGIRLBOUNCE_Sprite_41
@@ -658,8 +695,8 @@ TextureImporter:
         y: 319
         width: 28
         height: 14
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PIXELGIRLBOUNCE_Sprite_42
@@ -669,8 +706,8 @@ TextureImporter:
         y: 319
         width: 45
         height: 14
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Tw
@@ -680,8 +717,8 @@ TextureImporter:
         y: 296
         width: 13
         height: 13
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Fb
@@ -691,8 +728,8 @@ TextureImporter:
         y: 296
         width: 13
         height: 13
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Thank
@@ -702,8 +739,8 @@ TextureImporter:
         y: 291
         width: 55
         height: 16
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: You
@@ -713,8 +750,8 @@ TextureImporter:
         y: 291
         width: 34
         height: 16
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PIXELGIRLBOUNCE_Sprite_47
@@ -724,357 +761,357 @@ TextureImporter:
         y: 254
         width: 5
         height: 5
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Pink-normal1
+    - name: Pink_nomal1
       rect:
         serializedVersion: 2
         x: 229
         y: 254
         width: 23
         height: 24
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Pink-normal2
+    - name: Pink_nomal2
       rect:
         serializedVersion: 2
-        x: 260
+        x: 264
         y: 255
-        width: 26
-        height: 22
-      alignment: 9
-      pivot: {x: 0, y: 0}
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Pink-normal3
+    - name: Pink_nomal3
       rect:
         serializedVersion: 2
-        x: 294
+        x: 300
         y: 253
-        width: 29
+        width: 23
         height: 24
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Pink-normal4
+    - name: Pink_nomal4
       rect:
         serializedVersion: 2
         x: 331
         y: 254
         width: 23
         height: 23
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Pink-dive
+    - name: Pink_dive
       rect:
         serializedVersion: 2
         x: 363
         y: 249
         width: 12
         height: 32
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: ButtonR
+    - name: PIXELGIRLBOUNCE_Sprite_53
       rect:
         serializedVersion: 2
-        x: 112
+        x: 8
         y: 137
-        width: 111
-        height: 111
-      alignment: 9
-      pivot: {x: 0, y: 0}
+        width: 216
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 111}
-        - {x: 0, y: 0}
-        - {x: 111, y: 0}
-        - {x: 111, y: 111}
-    - name: Pink-slash1
+      - - {x: -108, y: 56}
+        - {x: -108, y: -56}
+        - {x: 108, y: -56}
+        - {x: 108, y: 56}
+    - name: Pink_slash1
       rect:
         serializedVersion: 2
         x: 240
         y: 210
         width: 24
         height: 31
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Pink-slash2
+    - name: Pink_slash2
       rect:
         serializedVersion: 2
         x: 276
         y: 210
         width: 26
         height: 37
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Pink-slash3
+    - name: Pink_slash3
       rect:
         serializedVersion: 2
         x: 317
         y: 204
         width: 26
         height: 36
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Pink-slash4
+    - name: Pink_slash4
       rect:
         serializedVersion: 2
         x: 356
         y: 203
         width: 25
         height: 28
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Pink-stun1
+    - name: Pink_stun1
       rect:
         serializedVersion: 2
         x: 240
         y: 175
         width: 32
         height: 18
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Pink-stun2
+    - name: Pink_stun2
       rect:
         serializedVersion: 2
         x: 283
         y: 175
         width: 32
         height: 18
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Pink-stun3
+    - name: Pink_stun3
       rect:
         serializedVersion: 2
         x: 327
         y: 172
         width: 32
         height: 16
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Enemy-Hane1
+    - name: Enemy_hane1
       rect:
         serializedVersion: 2
         x: 236
         y: 137
         width: 18
         height: 19
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Enemy-Hane2
+    - name: Enemy_hane2
       rect:
         serializedVersion: 2
         x: 264
         y: 138
         width: 18
         height: 18
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Enemy-Hane3
+    - name: Enemy_hane3
       rect:
         serializedVersion: 2
         x: 292
         y: 139
         width: 18
         height: 17
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Enemy-defo1
+    - name: Enemy_defo1
       rect:
         serializedVersion: 2
         x: 339
         y: 139
         width: 19
         height: 16
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Enemy-defo2
+    - name: Enemy_defo2
       rect:
         serializedVersion: 2
         x: 367
         y: 140
         width: 19
         height: 15
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Enemy-defo3
+    - name: Enemy_defo3
       rect:
         serializedVersion: 2
         x: 398
         y: 140
         width: 19
         height: 16
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: ButtonPushedR
+    - name: PIXELGIRLBOUNCE_Sprite_67
       rect:
         serializedVersion: 2
-        x: 110
-        y: 18
-        width: 113
+        x: 9
+        y: 16
+        width: 216
         height: 112
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 0}
-        - {x: 113, y: 0}
-        - {x: 113, y: 112}
-        - {x: 0, y: 112}
-    - name: Enemy-toge1
+      - - {x: -108, y: 56}
+        - {x: -108, y: -56}
+        - {x: 108, y: -56}
+        - {x: 108, y: 56}
+    - name: Enemy_toge1
       rect:
         serializedVersion: 2
         x: 235
         y: 102
         width: 19
         height: 24
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Enemy-toge2
+    - name: Enemy_toge2
       rect:
         serializedVersion: 2
         x: 265
         y: 103
         width: 19
         height: 23
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Enemy-toge3
+    - name: Enemy_toge3
       rect:
         serializedVersion: 2
         x: 293
         y: 102
         width: 19
         height: 24
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Enemy-cap
+    - name: Enemy_cap
       rect:
         serializedVersion: 2
         x: 342
         y: 108
         width: 13
         height: 10
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Enemy-dmg2
+    - name: Enemy_dmg2
       rect:
         serializedVersion: 2
         x: 371
         y: 106
         width: 20
         height: 10
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Enemy-dmg3
+    - name: Enemy_dmg3
       rect:
         serializedVersion: 2
         x: 398
         y: 106
         width: 22
         height: 9
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Enemy-dmg4
+    - name: Enemy_dmg4
       rect:
         serializedVersion: 2
         x: 426
         y: 106
         width: 22
         height: 8
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Enemy-dmg1
+    - name: Enemy_dmg1
       rect:
         serializedVersion: 2
         x: 235
         y: 73
         width: 19
         height: 15
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Enemy-cap1
+    - name: Enemy_cap1
       rect:
         serializedVersion: 2
         x: 266
         y: 73
         width: 19
         height: 18
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Enemy-cap2
+    - name: Enemy_cap2
       rect:
         serializedVersion: 2
         x: 295
         y: 74
         width: 19
         height: 17
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Enemy-cap3
+    - name: Enemy_cap3
       rect:
         serializedVersion: 2
         x: 323
         y: 73
         width: 19
         height: 18
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: PIXELGIRLBOUNCE_Sprite_79
@@ -1084,55 +1121,10 @@ TextureImporter:
         y: 75
         width: 26
         height: 12
-      alignment: 9
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: PIXELGIRLBOUNCE_Sprite_80
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 137
-        width: 111
-        height: 111
-      alignment: 9
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: 111}
-        - {x: 0, y: 0}
-        - {x: 111, y: 0}
-        - {x: 111, y: 111}
-    - name: ButtonL
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 137
-        width: 112
-        height: 112
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -56, y: 56}
-        - {x: -56, y: -56}
-        - {x: 56, y: -56}
-        - {x: 56, y: 56}
-    - name: ButtonPushedL
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 16
-        width: 112
-        height: 112
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -56, y: 56}
-        - {x: -56, y: -56}
-        - {x: 56, y: -56}
-        - {x: 56, y: 56}
     outline: []
   spritePackingTag: 
   userData: 
