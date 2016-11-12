@@ -7,8 +7,8 @@ public class AdmobManager : MonoBehaviour {
 
 	void Start() {
 		bool isBought = PlayerPrefs.HasKey("Bought");
-		if(isBought) {
-			RequestBanner();			
+		if(!isBought) {
+			RequestBanner();
 		}
 	}
 

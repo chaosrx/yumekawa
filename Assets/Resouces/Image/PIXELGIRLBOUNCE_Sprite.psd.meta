@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: bb7ec92b40b78419b8cff1f4ae7c08b0
-timeCreated: 1478846659
+timeCreated: 1478937153
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -159,6 +159,7 @@ TextureImporter:
     21300304: Enemy_cap1
     21300306: Enemy_cap2
     21300308: Enemy_cap3
+    21300310: PIXELGIRLBOUNCE_Sprite_0
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -782,7 +783,7 @@ TextureImporter:
         x: 264
         y: 255
         width: 22
-        height: 21
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1121,6 +1122,17 @@ TextureImporter:
         y: 75
         width: 26
         height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 261
+        width: 64
+        height: 26
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
