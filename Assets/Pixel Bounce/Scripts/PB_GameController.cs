@@ -59,7 +59,7 @@ public class PB_GameController : MonoBehaviour{
 	}
 
 	public void Awake() {		// Singleton: Destroys itself in case another instance is already in the scene
-		PlayerPrefs.DeleteAll();
+		//PlayerPrefs.DeleteAll();
 		if (instance != null){
 	        Destroy (gameObject);
 	    }else{
@@ -109,6 +109,7 @@ public class PB_GameController : MonoBehaviour{
 		//Unlocks bonus characters
 		if(this._highScore >= 40 && _unlockLevel < 4){
 			Unlock(4);
+			// TODO Twitterでシェアをしたら、解禁するようにif文の中の条件を書き換える
 		}else if(this._highScore >= 30 && _unlockLevel < 3){
 			Unlock(3);
 		}else if(this._highScore >= 20 && _unlockLevel < 2){

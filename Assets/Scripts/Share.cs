@@ -19,22 +19,24 @@ namespace SWorker {
 		public RawImage Image;
     public GameObject PleaseReview;
     public GameObject BuyBeer;
+    public string share_images;
+
 
         /// <summary>
         /// 開始処理
         /// </summary>
         void Start() {
+            ShareLevel();
             // Post画像は端末から読み込むので、ない場合はあらかじめ保存しておくこと
-						string imagePath = Application.persistentDataPath + "/twitter" + ExtensionImage;
+						string imagePath = Application.persistentDataPath + "/" + share_images + ExtensionImage;
             if (!File.Exists(imagePath))
             {
-				Texture2D texture = (Texture2D)Image.texture;
-				byte[] data = (ExtensionImage == ".png") ? texture.EncodeToPNG () : texture.EncodeToJPG ();
-				File.WriteAllBytes(imagePath, data);
+				          Texture2D texture = (Texture2D)Image.texture;
+				              byte[] data = (ExtensionImage == ".png") ? texture.EncodeToPNG () :   texture.EncodeToJPG ();
+				              File.WriteAllBytes(imagePath, data);
             }
             PleaseReview.SetActive(false);
             BuyBeer.SetActive(false);
-
         }
 
         /// <summary>
@@ -77,6 +79,31 @@ namespace SWorker {
         public void ActivateBuyBeer() {
           BuyBeer.SetActive(true);
         }
+
+        public void InActivateReview() {
+          PleaseReview.SetActive(false);
+        }
+
+        public void InActivateBuyBeer() {
+          BuyBeer.SetActive(false);
+        }
+
+        private string ShareLevel() {
+          if(PB_GameController.instance._highScore > 40) {
+            share_images = "4";
+          }
+          if(PB_GameController.instance._highScore > 20) {
+            share_images = "3";
+          }
+          if(PB_GameController.instance._highScore > 2) {
+            share_images = "2";
+          }
+          else {
+            share_images = "1";
+          }
+          return share_images;
+        }
+
 
         /// <summary>
         /// 結果コールバック
