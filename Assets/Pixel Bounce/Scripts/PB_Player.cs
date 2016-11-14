@@ -104,12 +104,13 @@ public class PB_Player:MonoBehaviour{
 		_anim.Play("Jump");
 	}
 
-	public void Jump(float _amount,bool bounce,bool dive) {			// Jumping and Dive funtion (_amount = how much velocity the jump has)
+	public void Jump(float _amount,bool bounce,bool dive) {
 		if(!_stunned && _alive){											// Player can not jump if stunned or dead
 			if(!_jumping || !dive){
 				if(!bounce){
 					SoundController.instance.Play(_jumpSound, .5f, UnityEngine.Random.Range(1.0f, 1.25f));
-					_jumpFX.transform.position = transform.position;
+					//_jumpFX.transform.position = transform.position;
+					_jumpFX.transform.position = new Vector2(transform.position.x, -0.8f);
 					_jumpFX.Play();
 				}
 				if(_canSwing)												// Checks if player can swing weapon
