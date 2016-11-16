@@ -25,7 +25,7 @@ namespace CompleteProject
         // kProductIDSubscription - it has custom Apple and Google identifiers. We declare their store-
         // specific mapping to Unity Purchasing's AddProduct, below.
         public static string kProductIDConsumable =    "consumable";
-        public static string kProductIDNonConsumable = "buy_coffee";
+        public static string kProductIDNonConsumable = "coffee";
         public static string kProductIDSubscription =  "subscription";
 
         // Apple App Store-specific product identifier for the subscription product.
@@ -219,6 +219,7 @@ namespace CompleteProject
                 Debug.Log(string.Format("ProcessPurchase: PASS. Product: '{0}'", args.purchasedProduct.definition.id));
                 // TODO: The non-consumable item has been successfully purchased, grant this item to the player.
 								PlayerPrefs.SetString("Bought", _buy);
+
 
             }
             // Or ... a subscription product has been purchased by this user.

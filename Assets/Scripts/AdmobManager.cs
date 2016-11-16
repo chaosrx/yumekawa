@@ -3,15 +3,20 @@ using System.Collections;
 using GoogleMobileAds.Api;
 
 public class AdmobManager : MonoBehaviour {
-	BannerView bannerView;
+	//BannerView bannerView;
+	bool is_close_interstitial = false;
+	private InterstitialAd _interstitial;
+	private BannerView bannerView;
+
+
 
 	void Start() {
 		bool isBought = PlayerPrefs.HasKey("Bought");
 		if(!isBought) {
 			RequestBanner();
+			RequestInterstitial();
 		}
 	}
-
 
 	private void RequestBanner() {
 
@@ -25,19 +30,48 @@ public class AdmobManager : MonoBehaviour {
     #else
       string adUnitId = "unexpected_platform";
     #endif
-
-    // Create a 320x50 banner at the top of the screen.
-		//BannerView bannerView = new BannerView(adUnitId, AdSize.Banner, AdPosition.Top);
-    // Create an empty ad request.
     AdRequest request = new AdRequest.Builder().Build();
-	/*	AdRequest request = new AdRequest.Builder()
-				.AddTestDevice(AdRequest.TestDeviceSimulator)       // Simulator.
-				.AddTestDevice("2077ef9a63d2b398840261c8221a0c9b")  // My test device.
-				.Build();
-	*/
-    // Load the banner with the request.
     bannerView.LoadAd(request);
 	}
+
+	public void RequestInterstitial() {
+		#if UNITY_ANDROID
+		string adUnitId = "ca-app-pub-6479246200198022/4046170395";
+		#elif UNITY_IPHONE
+		string adUnitId = "ca-app-pub-6479246200198022/4046170395";
+		#else
+		string adUnitId = "unexpected_platform";
+		#endif
+
+		if (is_close_interstitial == true) {
+			_interstitial.Destroy ();
+		}
+
+		// Initialize an InterstitialAd.
+		_interstitial = new InterstitialAd (adUnitId);
+		// Create an empty ad request.
+		AdRequest request = new AdRequest.Builder ().AddTestDevice("").Build ();
+		// Load the interstitial with the request.
+		_interstitial.LoadAd (request);
+
+		is_close_interstitial = false;
+	}
+
+	void HandleAdClosed (object sender, System.EventArgs e) {
+		is_close_interstitial = true;
+	}
+
+	private void LoadBigAd() {
+		if(is_close_interstitial) {
+			int i = Random.Range(0,4);
+			if(i==0) {
+				_interstitial.Show();
+			}
+		}
+	}
+
+
+
 
 	public void OnDestroy() {
     bannerView.Destroy();

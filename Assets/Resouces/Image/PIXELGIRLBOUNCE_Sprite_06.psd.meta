@@ -1,0 +1,750 @@
+fileFormatVersion: 2
+guid: 3e6701f78e0754477bed4e950699936d
+timeCreated: 1479300629
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: blue-run1
+    21300002: blue-run2
+    21300004: blue-run3
+    21300006: blue-run4
+    21300008: PIXELGIRLBOUNCE_Sprite_06_4
+    21300010: PIXELGIRLBOUNCE_Sprite_06_5
+    21300012: PIXELGIRLBOUNCE_Sprite_06_6
+    21300014: PIXELGIRLBOUNCE_Sprite_06_7
+    21300016: PIXELGIRLBOUNCE_Sprite_06_8
+    21300018: PIXELGIRLBOUNCE_Sprite_06_9
+    21300020: PIXELGIRLBOUNCE_Sprite_06_10
+    21300022: PIXELGIRLBOUNCE_Sprite_06_11
+    21300024: blue-stun3
+    21300026: PIXELGIRLBOUNCE_Sprite_06_13
+    21300028: PIXELGIRLBOUNCE_Sprite_06_14
+    21300030: PIXELGIRLBOUNCE_Sprite_06_15
+    21300032: PIXELGIRLBOUNCE_Sprite_06_16
+    21300034: PIXELGIRLBOUNCE_Sprite_06_17
+    21300036: PIXELGIRLBOUNCE_Sprite_06_18
+    21300038: blue-stun2
+    21300040: PIXELGIRLBOUNCE_Sprite_06_20
+    21300042: PIXELGIRLBOUNCE_Sprite_06_21
+    21300044: PIXELGIRLBOUNCE_Sprite_06_22
+    21300046: blue-stun1
+    21300048: PIXELGIRLBOUNCE_Sprite_06_24
+    21300050: blue-dive
+    21300052: blue-slush1
+    21300054: blue-slush2
+    21300056: blue-slush3
+    21300058: PIXELGIRLBOUNCE_Sprite_06_29
+    21300060: PIXELGIRLBOUNCE_Sprite_06_30
+    21300062: PIXELGIRLBOUNCE_Sprite_06_31
+    21300064: PIXELGIRLBOUNCE_Sprite_06_32
+    21300066: PIXELGIRLBOUNCE_Sprite_06_33
+    21300068: PIXELGIRLBOUNCE_Sprite_06_34
+    21300070: ham-dive
+    21300072: ham-run1
+    21300074: ham-run2
+    21300076: ham-run3
+    21300078: ham-run4
+    21300080: ham-stun1
+    21300082: ham-stun2
+    21300084: ham-stun3
+    21300086: PIXELGIRLBOUNCE_Sprite_06_43
+    21300088: PIXELGIRLBOUNCE_Sprite_06_44
+    21300090: ham-slush1
+    21300092: ham-slush2
+    21300094: ham-slush3
+    21300096: PIXELGIRLBOUNCE_Sprite_06_48
+    21300098: PIXELGIRLBOUNCE_Sprite_06_49
+    21300100: PIXELGIRLBOUNCE_Sprite_06_50
+    21300102: PIXELGIRLBOUNCE_Sprite_06_51
+    21300104: PIXELGIRLBOUNCE_Sprite_06_52
+    21300106: PIXELGIRLBOUNCE_Sprite_06_53
+    21300108: PIXELGIRLBOUNCE_Sprite_06_54
+    21300110: PIXELGIRLBOUNCE_Sprite_06_55
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 512
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: blue-run1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 463
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: blue-run2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 464
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: blue-run3
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 463
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: blue-run4
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 464
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_06_4
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 468
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_06_5
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 462
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_06_6
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 474
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_06_7
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 462
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_06_8
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 465
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_06_9
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 462
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_06_10
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 468
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_06_11
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 468
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: blue-stun3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 428
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_06_13
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 432
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_06_14
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 432
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_06_15
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 432
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_06_16
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 448
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_06_17
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 448
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_06_18
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 435
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: blue-stun2
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 426
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_06_20
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 441
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_06_21
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 434
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_06_22
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 436
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: blue-stun1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 427
+        width: 36
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_06_24
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 433
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: blue-dive
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 379
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: blue-slush1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 380
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: blue-slush2
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 380
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: blue-slush3
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 377
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_06_29
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 373
+        width: 52
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: -8.5}
+        - {x: 23, y: 16.5}
+        - {x: 21, y: 25.5}
+        - {x: 15, y: 27.5}
+        - {x: -4, y: 27.5}
+        - {x: -25, y: -2.5}
+        - {x: -26, y: -7.5}
+        - {x: -26, y: -27.5}
+        - {x: 18, y: -27.5}
+        - {x: 17, y: -24.5}
+        - {x: 26, y: -13.5}
+        - {x: 26, y: -8.5}
+    - name: PIXELGIRLBOUNCE_Sprite_06_30
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 373
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_06_31
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 392
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_06_32
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 388
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_06_33
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 373
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_06_34
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 382
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: ham-dive
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 317
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: ham-run1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 321
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: ham-run2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 321
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: ham-run3
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 321
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: ham-run4
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 321
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: ham-stun1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 284
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: ham-stun2
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 284
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: ham-stun3
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 285
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_06_43
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 277
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_06_44
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 277
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: ham-slush1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 241
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: ham-slush2
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 240
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: ham-slush3
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 241
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_06_48
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 210
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_06_49
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 210
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_06_50
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 210
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_06_51
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 44
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_06_52
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 41
+        width: 61
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_06_53
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 48
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PIXELGIRLBOUNCE_Sprite_06_54
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 23
+        width: 111
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 36.5}
+        - {x: -36.5, y: 25.5}
+        - {x: -55.5, y: 3.5}
+        - {x: -55.5, y: -31.5}
+        - {x: -53.5, y: -36.5}
+        - {x: 49.5, y: -36.5}
+        - {x: 55.5, y: -35.5}
+        - {x: 55.5, y: 18.5}
+        - {x: 42.5, y: 36.5}
+    - name: PIXELGIRLBOUNCE_Sprite_06_55
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 14
+        width: 72
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
