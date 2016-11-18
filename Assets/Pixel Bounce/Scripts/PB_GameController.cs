@@ -106,12 +106,9 @@ public class PB_GameController : MonoBehaviour{
 
 	public void CheckUnlocks() {									// Check what characters are unlocked based on score
 		//Unlocks bonus characters
-		if(this._highScore >= 40 && _unlockLevel < 4){
-			Unlock(4);
-			// TODO Twitterでシェアをしたら、解禁するようにif文の中の条件を書き換える
-		}else if(this._highScore >= 30 && _unlockLevel < 3){
+		if(PlayerPrefs.HasKey("Shared") && _unlockLevel < 3){
 			Unlock(3);
-		}else if(this._highScore >= 20 && _unlockLevel < 2){
+		}else if(PlayerPrefs.HasKey("Shared") && _unlockLevel < 2){
 			Unlock(2);
 		}else if(this._highScore >= 10 && _unlockLevel < 1){
 			Unlock(1);
@@ -177,7 +174,7 @@ public class PB_GameController : MonoBehaviour{
 			_newRecordAchieved = false;
 			SetMode("NewRecord");
 		}else{
-			if(i <= 33) {
+			if(i <= 33 && !PlayerPrefs.HasKey("Bought")) {
 				//i=3;
 				AdmobManager.instance.GameOver();
 			}

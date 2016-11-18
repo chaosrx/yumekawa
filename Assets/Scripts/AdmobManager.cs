@@ -43,8 +43,8 @@ public class AdmobManager : MonoBehaviour {
 	private void RequestBanner() {
 
 		#if UNITY_ANDROID
-			string adUnitId = "ca-app-pub-6479246200198022/1367709194";
-			bannerView = new BannerView(adUnitId, AdSize.SMART_BANNER, AdPosition.Top);
+			string adUnitId = "ca-app-pub-6479246200198022/4535364790";
+			bannerView = new BannerView(adUnitId, AdSize.Banner, AdPosition.Top);
     #elif UNITY_IOS
       string adUnitId = "ca-app-pub-6479246200198022/1367709194";
 			bannerView = new BannerView(adUnitId, AdSize.Banner, AdPosition.Top);
@@ -58,7 +58,7 @@ public class AdmobManager : MonoBehaviour {
 
 	private void RequestInterstitial() {
 	    #if UNITY_ANDROID
-					string adUnitId = "ca-app-pub-6479246200198022/4046170395";
+					string adUnitId = "ca-app-pub-6479246200198022/6012097999";
 	    #elif UNITY_IPHONE
 					string adUnitId = "ca-app-pub-6479246200198022/4046170395";
 	    #else

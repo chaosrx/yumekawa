@@ -1,51 +1,50 @@
 fileFormatVersion: 2
-guid: 7451e6cf9e8d24449a77063342318f0b
-timeCreated: 1479298889
+guid: cc79725e699a4463fa067f4f040f4262
+timeCreated: 1479506497
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: p-run1
-    21300002: p-run2
-    21300004: p-run3
-    21300006: PIXELGIRLBOUNCE_Sprite_04_3
-    21300008: PIXELGIRLBOUNCE_Sprite_04_4
-    21300010: PIXELGIRLBOUNCE_Sprite_04_5
-    21300012: PIXELGIRLBOUNCE_Sprite_04_6
-    21300014: PIXELGIRLBOUNCE_Sprite_04_7
-    21300016: p-slash1
-    21300018: p-slash2
-    21300020: p-slash3
-    21300022: PIXELGIRLBOUNCE_Sprite_04_11
-    21300024: PIXELGIRLBOUNCE_Sprite_04_12
-    21300026: p-slash4
-    21300028: PIXELGIRLBOUNCE_Sprite_04_14
-    21300030: p-stun1
-    21300032: p-stun2
-    21300034: p-stun3
-    21300036: hane1
-    21300038: hane2
-    21300040: hane3
-    21300042: enemey-3
-    21300044: PIXELGIRLBOUNCE_Sprite_04_22
-    21300046: enemey-1
-    21300048: enemey-2
-    21300050: toge1
-    21300052: toge2
-    21300054: toge3
-    21300056: PIXELGIRLBOUNCE_Sprite_04_28
-    21300058: enemey-dmg1
-    21300060: enemey-dmg2
-    21300062: enemey-dmg3
-    21300064: PIXELGIRLBOUNCE_Sprite_04_32
-    21300066: enemey-dmg0
-    21300068: cap1
-    21300070: cap2
-    21300072: cap3
-    21300074: PIXELGIRLBOUNCE_Sprite_04_37
-    21300076: PIXELGIRLBOUNCE_Sprite_04_38
-    21300078: PIXELGIRLBOUNCE_Sprite_04_39
-    21300080: PIXELGIRLBOUNCE_Sprite_04_40
-    21300082: p-run4
+    21300000: a1
+    21300002: a2
+    21300004: a3
+    21300006: a4
+    21300008: b
+    21300010: PIXELGIRLBOUNCE_Sprite_Great_5
+    21300012: PIXELGIRLBOUNCE_Sprite_Great_6
+    21300014: PIXELGIRLBOUNCE_Sprite_Great_7
+    21300016: PIXELGIRLBOUNCE_Sprite_Great_8
+    21300018: c1
+    21300020: c2
+    21300022: c3
+    21300024: PIXELGIRLBOUNCE_Sprite_Great_12
+    21300026: PIXELGIRLBOUNCE_Sprite_Great_13
+    21300028: c4
+    21300030: PIXELGIRLBOUNCE_Sprite_Great_15
+    21300032: d1
+    21300034: d2
+    21300036: d3
+    21300038: e1
+    21300040: e2
+    21300042: e3
+    21300044: f1
+    21300046: f2
+    21300048: f3
+    21300050: g1
+    21300052: g2
+    21300054: g3
+    21300056: PIXELGIRLBOUNCE_Sprite_Great_28
+    21300058: h1
+    21300060: h2
+    21300062: h3
+    21300064: PIXELGIRLBOUNCE_Sprite_Great_32
+    21300066: h0
+    21300068: i1
+    21300070: i2
+    21300072: i3
+    21300074: PIXELGIRLBOUNCE_Sprite_Great_37
+    21300076: PIXELGIRLBOUNCE_Sprite_Great_38
+    21300078: PIXELGIRLBOUNCE_Sprite_Great_39
+    21300080: PIXELGIRLBOUNCE_Sprite_Great_40
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -75,10 +74,10 @@ TextureImporter:
     aniso: 16
     mipBias: -1
     wrapMode: 1
-  nPOTScale: 0
+  nPOTScale: 1
   lightmap: 0
   rGBM: 0
-  compressionQuality: 68
+  compressionQuality: 50
   allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
@@ -92,7 +91,7 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: p-run1
+    - name: a1
       rect:
         serializedVersion: 2
         x: 17
@@ -103,7 +102,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: p-run2
+    - name: a2
       rect:
         serializedVersion: 2
         x: 49
@@ -114,7 +113,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: p-run3
+    - name: a3
       rect:
         serializedVersion: 2
         x: 75
@@ -125,7 +124,18 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: PIXELGIRLBOUNCE_Sprite_04_4
+    - name: a4
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 470
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: b
       rect:
         serializedVersion: 2
         x: 145
@@ -136,73 +146,84 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: PIXELGIRLBOUNCE_Sprite_04_5
+    - name: PIXELGIRLBOUNCE_Sprite_Great_5
       rect:
         serializedVersion: 2
-        x: 310
-        y: 483
+        x: 308
+        y: 477
         width: 57
         height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: PIXELGIRLBOUNCE_Sprite_04_6
+    - name: PIXELGIRLBOUNCE_Sprite_Great_6
       rect:
         serializedVersion: 2
-        x: 372
-        y: 483
+        x: 370
+        y: 477
         width: 67
         height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: PIXELGIRLBOUNCE_Sprite_04_7
+    - name: PIXELGIRLBOUNCE_Sprite_Great_7
       rect:
         serializedVersion: 2
-        x: 443
-        y: 483
+        x: 441
+        y: 477
         width: 57
         height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: p-slash1
+    - name: PIXELGIRLBOUNCE_Sprite_Great_8
       rect:
         serializedVersion: 2
-        x: 22
-        y: 426
-        width: 24
-        height: 32
+        x: 14
+        y: 470
+        width: 5
+        height: 5
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: p-slash2
+    - name: c1
       rect:
         serializedVersion: 2
-        x: 58
-        y: 426
+        x: 26
+        y: 421
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: c2
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 421
         width: 26
         height: 37
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: p-slash3
+    - name: c3
       rect:
         serializedVersion: 2
-        x: 99
-        y: 420
+        x: 103
+        y: 415
         width: 26
         height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: PIXELGIRLBOUNCE_Sprite_04_11
+    - name: PIXELGIRLBOUNCE_Sprite_Great_12
       rect:
         serializedVersion: 2
         x: 399
@@ -213,7 +234,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: PIXELGIRLBOUNCE_Sprite_04_12
+    - name: PIXELGIRLBOUNCE_Sprite_Great_13
       rect:
         serializedVersion: 2
         x: 456
@@ -224,33 +245,33 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: p-slash4
+    - name: c4
       rect:
         serializedVersion: 2
-        x: 138
-        y: 419
+        x: 142
+        y: 414
         width: 25
         height: 28
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: PIXELGIRLBOUNCE_Sprite_04_14
+    - name: PIXELGIRLBOUNCE_Sprite_Great_15
       rect:
         serializedVersion: 2
-        x: 334
-        y: 380
-        width: 162
-        height: 60
+        x: 331
+        y: 374
+        width: 157
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -81, y: 30}
-        - {x: -81, y: -30}
-        - {x: 81, y: -30}
-        - {x: 81, y: 30}
-    - name: p-stun1
+      - - {x: -78.5, y: 25}
+        - {x: -78.5, y: -25}
+        - {x: 78.5, y: -25}
+        - {x: 78.5, y: 25}
+    - name: d1
       rect:
         serializedVersion: 2
         x: 22
@@ -261,7 +282,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: p-stun2
+    - name: d2
       rect:
         serializedVersion: 2
         x: 65
@@ -272,7 +293,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: p-stun3
+    - name: d3
       rect:
         serializedVersion: 2
         x: 109
@@ -283,62 +304,40 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: hane1
+    - name: e1
       rect:
         serializedVersion: 2
-        x: 18
-        y: 353
+        x: 23
+        y: 351
         width: 18
         height: 19
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: hane2
+    - name: e2
       rect:
         serializedVersion: 2
-        x: 46
-        y: 354
+        x: 51
+        y: 351
         width: 18
-        height: 18
+        height: 19
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: hane3
+    - name: e3
       rect:
         serializedVersion: 2
-        x: 74
-        y: 355
+        x: 79
+        y: 353
         width: 18
         height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: enemey-3
-      rect:
-        serializedVersion: 2
-        x: 180
-        y: 356
-        width: 19
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: PIXELGIRLBOUNCE_Sprite_04_22
-      rect:
-        serializedVersion: 2
-        x: 385
-        y: 371
-        width: 53
-        height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: enemey-1
+    - name: f1
       rect:
         serializedVersion: 2
         x: 121
@@ -349,7 +348,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: enemey-2
+    - name: f2
       rect:
         serializedVersion: 2
         x: 149
@@ -360,7 +359,18 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: toge1
+    - name: f3
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 356
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: g1
       rect:
         serializedVersion: 2
         x: 17
@@ -371,7 +381,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: toge2
+    - name: g2
       rect:
         serializedVersion: 2
         x: 47
@@ -382,7 +392,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: toge3
+    - name: g3
       rect:
         serializedVersion: 2
         x: 75
@@ -393,7 +403,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: PIXELGIRLBOUNCE_Sprite_04_28
+    - name: PIXELGIRLBOUNCE_Sprite_Great_28
       rect:
         serializedVersion: 2
         x: 124
@@ -404,7 +414,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: enemey-dmg1
+    - name: h1
       rect:
         serializedVersion: 2
         x: 153
@@ -415,7 +425,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: enemey-dmg2
+    - name: h2
       rect:
         serializedVersion: 2
         x: 180
@@ -426,7 +436,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: enemey-dmg3
+    - name: h3
       rect:
         serializedVersion: 2
         x: 208
@@ -437,22 +447,25 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: PIXELGIRLBOUNCE_Sprite_04_32
+    - name: PIXELGIRLBOUNCE_Sprite_Great_32
       rect:
         serializedVersion: 2
-        x: 279
+        x: 282
         y: 0
-        width: 223
+        width: 220
         height: 350
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -111.5, y: 175}
-        - {x: -111.5, y: -175}
-        - {x: 111.5, y: -175}
-        - {x: 111.5, y: 175}
-    - name: enemey-dmg0
+      - - {x: 109, y: 175}
+        - {x: -110, y: 175}
+        - {x: -110, y: -175}
+        - {x: 109, y: -175}
+        - {x: 110, y: -140}
+        - {x: 110, y: -66}
+        - {x: 109, y: -65}
+    - name: h0
       rect:
         serializedVersion: 2
         x: 17
@@ -463,7 +476,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: cap1
+    - name: i1
       rect:
         serializedVersion: 2
         x: 48
@@ -474,7 +487,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: cap2
+    - name: i2
       rect:
         serializedVersion: 2
         x: 77
@@ -485,7 +498,7 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: cap3
+    - name: i3
       rect:
         serializedVersion: 2
         x: 105
@@ -496,11 +509,11 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: PIXELGIRLBOUNCE_Sprite_04_37
+    - name: PIXELGIRLBOUNCE_Sprite_Great_37
       rect:
         serializedVersion: 2
-        x: 24
-        y: 142
+        x: 34
+        y: 139
         width: 106
         height: 112
       alignment: 0
@@ -511,11 +524,11 @@ TextureImporter:
         - {x: -53, y: -56}
         - {x: 53, y: -56}
         - {x: 53, y: 56}
-    - name: PIXELGIRLBOUNCE_Sprite_04_38
+    - name: PIXELGIRLBOUNCE_Sprite_Great_38
       rect:
         serializedVersion: 2
-        x: 140
-        y: 142
+        x: 150
+        y: 139
         width: 110
         height: 112
       alignment: 0
@@ -526,11 +539,11 @@ TextureImporter:
         - {x: -55, y: -56}
         - {x: 55, y: -56}
         - {x: 55, y: 56}
-    - name: PIXELGIRLBOUNCE_Sprite_04_39
+    - name: PIXELGIRLBOUNCE_Sprite_Great_39
       rect:
         serializedVersion: 2
-        x: 24
-        y: 26
+        x: 34
+        y: 23
         width: 106
         height: 112
       alignment: 0
@@ -541,11 +554,11 @@ TextureImporter:
         - {x: -53, y: -56}
         - {x: 53, y: -56}
         - {x: 53, y: 56}
-    - name: PIXELGIRLBOUNCE_Sprite_04_40
+    - name: PIXELGIRLBOUNCE_Sprite_Great_40
       rect:
         serializedVersion: 2
-        x: 140
-        y: 26
+        x: 150
+        y: 23
         width: 110
         height: 112
       alignment: 0
@@ -556,17 +569,6 @@ TextureImporter:
         - {x: -55, y: -56}
         - {x: 55, y: -56}
         - {x: 55, y: 56}
-    - name: p-run4
-      rect:
-        serializedVersion: 2
-        x: 104
-        y: 471
-        width: 23
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
     outline: []
   spritePackingTag: 
   userData: 

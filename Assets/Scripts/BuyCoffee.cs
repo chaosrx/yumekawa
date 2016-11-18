@@ -25,7 +25,7 @@ namespace CompleteProject
         // kProductIDSubscription - it has custom Apple and Google identifiers. We declare their store-
         // specific mapping to Unity Purchasing's AddProduct, below.
         public static string kProductIDConsumable =    "consumable";
-        public static string kProductIDNonConsumable = "coffee";
+        public static string kProductIDNonConsumable = "com.yoico.yumepoka.buycoffee";
         public static string kProductIDSubscription =  "subscription";
 
         // Apple App Store-specific product identifier for the subscription product.

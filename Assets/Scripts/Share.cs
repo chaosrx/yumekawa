@@ -21,12 +21,17 @@ namespace SWorker {
     public GameObject BuyBeer;
     public string share_images;
     private int highScore;
+    private string _shared;
+    public  bool isShared = false;
+
+
 
 
         /// <summary>
         /// 開始処理
         /// </summary>
         void Start() {
+          isShared = PlayerPrefs.HasKey("Shared");
           highScore = PlayerPrefs.GetInt("HighScore");
           // Post画像は端末から読み込むので、ない場合はあらかじめ保存しておくこと
           string imagePath = Application.persistentDataPath + "/" + "ShareGazo" + ExtensionImage;
@@ -50,6 +55,9 @@ namespace SWorker {
 					string url       = "https://itunes.apple.com/jp/app/bounce-jimuzu-dotto-huigemu/id1173871260?l=ja&ls=1&mt=8";
 					string imagePath = Application.persistentDataPath + "/ShareGazo" + ExtensionImage;
 					SocialWorker.PostTwitter(message, url, imagePath, OnResult);
+          if(!isShared) {
+            PlayerPrefs.SetString("Shared", _shared);
+          }
 //				SocialWorker.PostTwitter(message, "", OnResult);
 //				SocialWorker.PostTwitter("", imagePath, OnResult);
         }
@@ -61,6 +69,9 @@ namespace SWorker {
 					string message   = highScore + "点でした！";
 					string imagePath = Application.persistentDataPath + "/ShareGazo" + ExtensionImage;
 					SocialWorker.CreateChooser(message, imagePath, OnResult);
+          if(!isShared) {
+            PlayerPrefs.SetString("Shared", _shared);
+          }
 					//			SocialWorker.CreateChooser(message, "", OnResult);
 					//			SocialWorker.CreateChooser("", imagePath, OnResult);
         }
