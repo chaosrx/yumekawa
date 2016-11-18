@@ -101,6 +101,7 @@ namespace SWorker {
           else {
             share_images = "1";
           }
+          Image.texture = Resources.Load("Share_0" + share_images) as Texture;
           return share_images;
         }
 

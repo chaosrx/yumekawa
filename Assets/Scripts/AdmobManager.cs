@@ -3,11 +3,25 @@ using System.Collections;
 using GoogleMobileAds.Api;
 
 public class AdmobManager : MonoBehaviour {
-	//BannerView bannerView;
-	bool is_close_interstitial = false;
-	private InterstitialAd _interstitial;
+	private InterstitialAd interstitial;
 	private BannerView bannerView;
+	public static AdmobManager instance;
+	public bool isCloseBigAD = false;
 
+
+	public void OnApplicationQuit() {			// Ensure that the instance is destroyed when the game is stopped in the editor.
+	    instance = null;
+	}
+
+	public void Awake() {
+		if (instance != null){
+				Destroy (gameObject);
+		}
+		else {
+				instance = this;
+				DontDestroyOnLoad (gameObject);
+		}
+	}
 
 
 	void Start() {
@@ -15,6 +29,12 @@ public class AdmobManager : MonoBehaviour {
 		if(!isBought) {
 			RequestBanner();
 			RequestInterstitial();
+			/*
+			interstitial.AdClosed += delegate(object sender, EventArgs args) {
+				interstitial.Destroy();
+				RequestInterstitial();
+			};
+			*/
 		}
 	}
 
@@ -34,46 +54,46 @@ public class AdmobManager : MonoBehaviour {
     bannerView.LoadAd(request);
 	}
 
-	public void RequestInterstitial() {
-		#if UNITY_ANDROID
-		string adUnitId = "ca-app-pub-6479246200198022/4046170395";
-		#elif UNITY_IPHONE
-		string adUnitId = "ca-app-pub-6479246200198022/4046170395";
-		#else
-		string adUnitId = "unexpected_platform";
-		#endif
+	private void RequestInterstitial() {
+	    #if UNITY_ANDROID
+					string adUnitId = "ca-app-pub-6479246200198022/4046170395";
+	    #elif UNITY_IPHONE
+					string adUnitId = "ca-app-pub-6479246200198022/4046170395";
+	    #else
+	        string adUnitId = "unexpected_platform";
+	    #endif
 
-		if (is_close_interstitial == true) {
-			_interstitial.Destroy ();
-		}
+			if (isCloseBigAD == true) {
+				interstitial.Destroy ();
+			}
 
-		// Initialize an InterstitialAd.
-		_interstitial = new InterstitialAd (adUnitId);
-		// Create an empty ad request.
-		AdRequest request = new AdRequest.Builder ().AddTestDevice("").Build ();
-		// Load the interstitial with the request.
-		_interstitial.LoadAd (request);
 
-		is_close_interstitial = false;
+	    // Initialize an InterstitialAd.
+	    interstitial = new InterstitialAd(adUnitId);
+	    // Create an empty ad request.
+	    AdRequest request = new AdRequest.Builder().Build();
+	    // Load the interstitial with the request.
+	    interstitial.LoadAd(request);
+			isCloseBigAD = false;
+	}
+
+	public void GameOver() {
+	  if (interstitial.IsLoaded()) {
+	    interstitial.Show();
+	  }
 	}
 
 	void HandleAdClosed (object sender, System.EventArgs e) {
-		is_close_interstitial = true;
+		isCloseBigAD = true;
 	}
 
-	private void LoadBigAd() {
-		if(is_close_interstitial) {
-			int i = Random.Range(0,4);
-			if(i==0) {
-				_interstitial.Show();
-			}
-		}
-	}
 
 
 
 
 	public void OnDestroy() {
     bannerView.Destroy();
+		interstitial.Destroy();
+//		isCloseBigAD = true;
 	}
 }

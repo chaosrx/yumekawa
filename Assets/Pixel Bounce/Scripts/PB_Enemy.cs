@@ -38,6 +38,9 @@ public class PB_Enemy:MonoBehaviour{
 			PB_GameController.instance._enemiesOnScreen--;		// Decrease number of enemies on screen counter
 			Destroy(gameObject);								// Remove enemy from game completely
 		}
+		else {
+			Destroy(gameObject);
+		}
 	}
 
 	public void FixedUpdate() {
@@ -72,5 +75,6 @@ public class PB_Enemy:MonoBehaviour{
 			_rb.velocity = new Vector2((float)UnityEngine.Random.Range(3, 5), (float)UnityEngine.Random.Range(1, 3));
 			_rb.angularVelocity = (float)UnityEngine.Random.Range(250, -250);
 		}
+		Invoke("DestroyEnemy", 2);
 	}
 }

@@ -3,7 +3,6 @@
 using UnityEngine;
 using System;
 
-
 public class PB_GameController : MonoBehaviour{
 	public int _score;									// How many enemies have been squashed
 	public GameObject _scoreText;						// UI reference to the score text
@@ -17,7 +16,7 @@ public class PB_GameController : MonoBehaviour{
 	public GameObject _shareBox;
 	public GameObject _pleaseReview;
 
-	private int _updateHighScoreCnt;
+//	private int _updateHighScoreCnt;
 
 	public int _totalScore;
 	public GameObject _totalScoreContainer;
@@ -52,7 +51,7 @@ public class PB_GameController : MonoBehaviour{
 	public void OnApplicationQuit() {						// Ensure that the instance is destroyed when the game is stopped in the editor.
 		PlayerPrefs.SetInt("TotalScore", _totalScore);
 		PlayerPrefs.SetInt("HighScore", _highScore);
-		PlayerPrefs.SetInt("UpdateHiScore", _updateHighScoreCnt);
+		//PlayerPrefs.SetInt("UpdateHiScore", _updateHighScoreCnt);
 		PlayerPrefs.Save();
 
 	    instance = null;
@@ -136,6 +135,9 @@ public class PB_GameController : MonoBehaviour{
 			_pleaseReview.SetActive(false);
 			PB_Player.instance.Alive();
 			CheckUnlocks();											// Check what characters are unlocked based on score
+
+//			AdmobManager.instance.LoadBigAd();
+
 		//Game Play Mode
 		}else if(m == "Game" && _mode!= "Game"){					// Game mode
 			_title.GetComponent<Animator>().Play("Out");				// Hide title
@@ -163,16 +165,24 @@ public class PB_GameController : MonoBehaviour{
 			_scoreContainer.SetActive(false);
 			_highScoreContainer.SetActive(false);
 			_titleContainer.SetActive(false);
-
+			_shareBox.SetActive(true);
 			//_pleaseReview.SetActive(true);
 		}
 	}
 
 	public void DelayedEndGame(){
+		int i =	UnityEngine.Random.Range(0, 7);
+
 		if(_newRecordAchieved){
 			_newRecordAchieved = false;
 			SetMode("NewRecord");
 		}else{
+			if(i==2) {
+				//i=3;
+				AdmobManager.instance.GameOver();
+			}
+			//AdmobManager.instance.GameOver();
+
 			SetMode("StartScreen");
 		}
 	}
