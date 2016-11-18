@@ -171,17 +171,16 @@ public class PB_GameController : MonoBehaviour{
 	}
 
 	public void DelayedEndGame(){
-		int i =	UnityEngine.Random.Range(0, 7);
+		int i =	UnityEngine.Random.Range(0, 100);
 
 		if(_newRecordAchieved){
 			_newRecordAchieved = false;
 			SetMode("NewRecord");
 		}else{
-			if(i==2) {
+			if(i <= 33) {
 				//i=3;
 				AdmobManager.instance.GameOver();
 			}
-			//AdmobManager.instance.GameOver();
 
 			SetMode("StartScreen");
 		}

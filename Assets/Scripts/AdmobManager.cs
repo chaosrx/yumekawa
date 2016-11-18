@@ -1,12 +1,14 @@
 using UnityEngine;
 using System.Collections;
 using GoogleMobileAds.Api;
+using System;
 
 public class AdmobManager : MonoBehaviour {
 	private InterstitialAd interstitial;
 	private BannerView bannerView;
 	public static AdmobManager instance;
-	public bool isCloseBigAD = false;
+	private bool isCloseBigAD = false;
+	bool isBought;
 
 
 	public void OnApplicationQuit() {			// Ensure that the instance is destroyed when the game is stopped in the editor.
@@ -14,6 +16,12 @@ public class AdmobManager : MonoBehaviour {
 	}
 
 	public void Awake() {
+		isBought = PlayerPrefs.HasKey("Bought");
+
+		if (isBought) {
+			this.gameObject.SetActive(false);
+
+		}
 		if (instance != null){
 				Destroy (gameObject);
 		}
@@ -25,16 +33,10 @@ public class AdmobManager : MonoBehaviour {
 
 
 	void Start() {
-		bool isBought = PlayerPrefs.HasKey("Bought");
 		if(!isBought) {
 			RequestBanner();
 			RequestInterstitial();
-			/*
-			interstitial.AdClosed += delegate(object sender, EventArgs args) {
-				interstitial.Destroy();
-				RequestInterstitial();
-			};
-			*/
+
 		}
 	}
 
@@ -64,7 +66,7 @@ public class AdmobManager : MonoBehaviour {
 	    #endif
 
 			if (isCloseBigAD == true) {
-				interstitial.Destroy ();
+				//interstitial.Destroy ();
 			}
 
 
@@ -74,6 +76,8 @@ public class AdmobManager : MonoBehaviour {
 	    AdRequest request = new AdRequest.Builder().Build();
 	    // Load the interstitial with the request.
 	    interstitial.LoadAd(request);
+			interstitial.OnAdClosed += HandleAdClosed;
+
 			isCloseBigAD = false;
 	}
 
@@ -84,11 +88,9 @@ public class AdmobManager : MonoBehaviour {
 	}
 
 	void HandleAdClosed (object sender, System.EventArgs e) {
-		isCloseBigAD = true;
+		interstitial.Destroy();
+		RequestInterstitial();
 	}
-
-
-
 
 
 	public void OnDestroy() {

@@ -83,7 +83,6 @@ namespace GoogleMobileAds.Api
         {
             client.DestroyInterstitial();
         }
-
         // Set IDefaultInAppPurchaseProcessor for InterstitialAd.
         public void SetInAppPurchaseProcessor(IDefaultInAppPurchaseProcessor processor)
         {

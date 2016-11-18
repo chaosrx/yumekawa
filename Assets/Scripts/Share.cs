@@ -20,32 +20,35 @@ namespace SWorker {
     public GameObject PleaseReview;
     public GameObject BuyBeer;
     public string share_images;
+    private int highScore;
 
 
         /// <summary>
         /// 開始処理
         /// </summary>
         void Start() {
-            ShareLevel();
-            // Post画像は端末から読み込むので、ない場合はあらかじめ保存しておくこと
-						string imagePath = Application.persistentDataPath + "/" + share_images + ExtensionImage;
-            if (!File.Exists(imagePath))
-            {
-				          Texture2D texture = (Texture2D)Image.texture;
-				              byte[] data = (ExtensionImage == ".png") ? texture.EncodeToPNG () :   texture.EncodeToJPG ();
-				              File.WriteAllBytes(imagePath, data);
-            }
-            PleaseReview.SetActive(false);
-            BuyBeer.SetActive(false);
-        }
+          highScore = PlayerPrefs.GetInt("HighScore");
+          // Post画像は端末から読み込むので、ない場合はあらかじめ保存しておくこと
+          string imagePath = Application.persistentDataPath + "/" + "ShareGazo" + ExtensionImage;
+          if (!File.Exists(imagePath)) {
+                Texture2D texture = (Texture2D)Image.texture;
+                    byte[] data = (ExtensionImage == ".png") ? texture.EncodeToPNG () :   texture.EncodeToJPG ();
+                    File.WriteAllBytes(imagePath, data);
+          }
 
+          PleaseReview.SetActive(false);
+          BuyBeer.SetActive(false);
+
+
+        }
         /// <summary>
         /// Twitter投稿
         /// </summary>
         public void OnPostTwitter() {
-					string message   = "message";
-					string url       = "http://yedo-factory.co.jp/";
-					string imagePath = Application.persistentDataPath + "/image" + ExtensionImage;
+        //  SetPath();
+          string message   =  highScore + "点でした！";
+					string url       = "https://itunes.apple.com/jp/app/bounce-jimuzu-dotto-huigemu/id1173871260?l=ja&ls=1&mt=8";
+					string imagePath = Application.persistentDataPath + "/ShareGazo" + ExtensionImage;
 					SocialWorker.PostTwitter(message, url, imagePath, OnResult);
 //				SocialWorker.PostTwitter(message, "", OnResult);
 //				SocialWorker.PostTwitter("", imagePath, OnResult);
@@ -54,8 +57,9 @@ namespace SWorker {
         /// アプリ選択式での投稿
         /// </summary>
         public void OnCreateChooser()  {
-					string message   = "message";
-					string imagePath = Application.persistentDataPath + "/image" + ExtensionImage;
+    //      SetPath();
+					string message   = highScore + "点でした！";
+					string imagePath = Application.persistentDataPath + "/ShareGazo" + ExtensionImage;
 					SocialWorker.CreateChooser(message, imagePath, OnResult);
 					//			SocialWorker.CreateChooser(message, "", OnResult);
 					//			SocialWorker.CreateChooser("", imagePath, OnResult);
@@ -64,7 +68,7 @@ namespace SWorker {
 
 				public void ReviewPlease() {
 					#if UNITY_IOS
-						Application.OpenURL("itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?id=APP_ID&onlyLatestVersion=true&pageNumber=0&sortOrdering=1&type=Purple+Software");
+						Application.OpenURL("itms-apps://itunes.apple.com/us/app/bounce-jimuzu-dotto-huigemu/id1173871260?l=ja&ls=1&mt=8");
 					#endif
 
 					#if UNITY_ANDROID
@@ -87,25 +91,6 @@ namespace SWorker {
         public void InActivateBuyBeer() {
           BuyBeer.SetActive(false);
         }
-
-        private string ShareLevel() {
-          if(PB_GameController.instance._highScore > 40) {
-            share_images = "4";
-          }
-          if(PB_GameController.instance._highScore > 20) {
-            share_images = "3";
-          }
-          if(PB_GameController.instance._highScore > 2) {
-            share_images = "2";
-          }
-          else {
-            share_images = "1";
-          }
-          Image.texture = Resources.Load("Share_0" + share_images) as Texture;
-          return share_images;
-        }
-
-
         /// <summary>
         /// 結果コールバック
         /// </summary>
@@ -123,5 +108,6 @@ namespace SWorker {
                     break;
             }
         }
+
 	}
 }
