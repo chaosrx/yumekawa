@@ -36,7 +36,6 @@ public class AdmobManager : MonoBehaviour {
 		if(!isBought) {
 			RequestBanner();
 			RequestInterstitial();
-
 		}
 	}
 

@@ -14,6 +14,8 @@ public class PB_GameController : MonoBehaviour{
 	public GameObject _highScoreTextShadow;
 	public GameObject _highScoreContainer;
 	public GameObject _shareBox;
+	public GameObject _reviewBox;
+	public GameObject _buyBox;
 	public GameObject _pleaseReview;
 
 //	private int _updateHighScoreCnt;
@@ -121,6 +123,8 @@ public class PB_GameController : MonoBehaviour{
 		if(m == "StartScreen" && _mode!= "StartScreen"){			// Start screen mode
 			PB_Controller.instance.DisableController(1.0f);
 			_mode = m;
+			_reviewBox.SetActive(false);
+			_buyBox.SetActive(false);
 			_newRecord.SetActive(false);
 			SoundController.instance.Play(_startSound, .75f, 1.0f);
 			_totalScoreContainer.SetActive(true);					// Show total score
@@ -141,6 +145,8 @@ public class PB_GameController : MonoBehaviour{
 			_startText.SetActive(false);
 			_totalScoreContainer.SetActive(false);
 			_shareBox.SetActive(false);
+			_reviewBox.SetActive(false);
+			_buyBox.SetActive(false);
 			_titleContainer.SetActive(false);
 				// Hide total score
 			PB_Player.instance.GetComponent<BoxCollider2D>().enabled = true;		// Enable player collider
@@ -174,7 +180,7 @@ public class PB_GameController : MonoBehaviour{
 			_newRecordAchieved = false;
 			SetMode("NewRecord");
 		}else{
-			if(i <= 33 && !PlayerPrefs.HasKey("Bought")) {
+			if(i <= 28 && !PlayerPrefs.HasKey("Bought")) {
 				//i=3;
 				AdmobManager.instance.GameOver();
 			}

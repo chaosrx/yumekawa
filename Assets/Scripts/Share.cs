@@ -25,8 +25,6 @@ namespace SWorker {
     public  bool isShared = false;
 
 
-
-
         /// <summary>
         /// 開始処理
         /// </summary>
@@ -52,7 +50,14 @@ namespace SWorker {
         public void OnPostTwitter() {
         //  SetPath();
           string message   =  highScore + "点でした！";
-					string url       = "https://itunes.apple.com/jp/app/bounce-jimuzu-dotto-huigemu/id1173871260?l=ja&ls=1&mt=8";
+
+          #if UNITY_ANDROID
+      			string url = "https://play.google.com/store/apps/details?id=com.yoico.yumepoka&hl=ja";
+          #elif UNITY_IOS
+            string url       =    "https://itunes.apple.com/jp/app/bounce-jimuzu-dotto-huigemu/id1173871260?l=ja&ls=1&mt=8";
+          #else
+            string url = "unknouwn";
+          #endif
 					string imagePath = Application.persistentDataPath + "/ShareGazo" + ExtensionImage;
 					SocialWorker.PostTwitter(message, url, imagePath, OnResult);
           if(!isShared) {
@@ -83,7 +88,7 @@ namespace SWorker {
 					#endif
 
 					#if UNITY_ANDROID
-						Application.OpenURL("https://play.google.com/store/apps/details?id=com.zavukodlak.pixbit");
+						Application.OpenURL("https://play.google.com/store/apps/details?id=com.yoico.yumepoka&hl=ja");
 					#endif
 				}
 

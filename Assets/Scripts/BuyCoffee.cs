@@ -218,9 +218,10 @@ namespace CompleteProject
             {
                 Debug.Log(string.Format("ProcessPurchase: PASS. Product: '{0}'", args.purchasedProduct.definition.id));
                 // TODO: The non-consumable item has been successfully purchased, grant this item to the player.
+                AdmobManager.instance.OnDestroy();
+                GameObject.Find("AdSocial").SetActive(false);
+
 								PlayerPrefs.SetString("Bought", _buy);
-
-
             }
             // Or ... a subscription product has been purchased by this user.
             else if (String.Equals(args.purchasedProduct.definition.id, kProductIDSubscription, StringComparison.Ordinal))
