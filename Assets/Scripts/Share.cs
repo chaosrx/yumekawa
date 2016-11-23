@@ -23,6 +23,8 @@ namespace SWorker {
     private int highScore;
     private string _shared;
     public  bool isShared = false;
+    private string _reviewClicked;
+
 
 
         /// <summary>
@@ -49,7 +51,7 @@ namespace SWorker {
         /// </summary>
         public void OnPostTwitter() {
         //  SetPath();
-          string message   =  highScore + "点でした！";
+          string message   =  highScore + "点でした！ #ぽこぽこチャレンジ";
 
           #if UNITY_ANDROID
       			string url = "https://play.google.com/store/apps/details?id=com.yoico.yumepoka&hl=ja";
@@ -71,7 +73,7 @@ namespace SWorker {
         /// </summary>
         public void OnCreateChooser()  {
     //      SetPath();
-					string message   = highScore + "点でした！";
+					string message   = highScore + "点でした！　#ぽこぽこチャレンジ";
 					string imagePath = Application.persistentDataPath + "/ShareGazo" + ExtensionImage;
 					SocialWorker.CreateChooser(message, imagePath, OnResult);
           if(!isShared) {
@@ -83,6 +85,7 @@ namespace SWorker {
 
 
 				public void ReviewPlease() {
+          PlayerPrefs.SetString("Review", _reviewClicked);
 					#if UNITY_IOS
 						Application.OpenURL("itms-apps://itunes.apple.com/us/app/bounce-jimuzu-dotto-huigemu/id1173871260?l=ja&ls=1&mt=8");
 					#endif

@@ -16,7 +16,7 @@ public class PB_GameController : MonoBehaviour{
 	public GameObject _shareBox;
 	public GameObject _reviewBox;
 	public GameObject _buyBox;
-	public GameObject _pleaseReview;
+	//public GameObject _pleaseReview;
 
 //	private int _updateHighScoreCnt;
 
@@ -48,6 +48,7 @@ public class PB_GameController : MonoBehaviour{
 	public int _currentPlayer;							// Current player graphics
 
 	public static PB_GameController instance;				// PB_GameController is a singleton. PB_GameController.instance.DoSomeThing();
+
 
 
 	public void OnApplicationQuit() {						// Ensure that the instance is destroyed when the game is stopped in the editor.
@@ -120,10 +121,18 @@ public class PB_GameController : MonoBehaviour{
 	//Set the different modes in the game
 	public void SetMode(string m) {						// Change the games mode
 		//Start Screen Mode
+		int i =	UnityEngine.Random.Range(0, 100);
+
 		if(m == "StartScreen" && _mode!= "StartScreen"){			// Start screen mode
 			PB_Controller.instance.DisableController(1.0f);
 			_mode = m;
-			_reviewBox.SetActive(false);
+			if(!PlayerPrefs.HasKey("Review") && _highScore > 15 && i <= 28) {
+				_reviewBox.SetActive(true);
+			}
+			else {
+				_reviewBox.SetActive(false);
+			}
+			//_reviewBox.SetActive(false);
 			_buyBox.SetActive(false);
 			_newRecord.SetActive(false);
 			SoundController.instance.Play(_startSound, .75f, 1.0f);
@@ -133,7 +142,7 @@ public class PB_GameController : MonoBehaviour{
 			_shareBox.SetActive(true);
 			_title.GetComponent<Animator>().Play("In");				// Show title
 			_startText.SetActive(true);
-			_pleaseReview.SetActive(false);
+			//_pleaseReview.SetActive(false);
 			PB_Player.instance.Alive();
 			CheckUnlocks();											// Check what characters are unlocked based on score
 
